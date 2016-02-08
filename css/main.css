@@ -1,0 +1,37 @@
+html {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+  background-color: #efeee9;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header h1 {
+  color: #4f2404;
+  text-align: center;
+  font-size: 3rem;
+}
+.info-boxes {
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  border: 3px solid #795638
+}
+
+.info-boxes li {
+  display: block;
+  margin: -1em;
+  max-width: none;
+  min-width: none;
+  padding-bottom: 1em ;
+  background-color: #9a816d;
+  border: 3px solid #745842;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
