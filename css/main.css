@@ -45,10 +45,10 @@ body ul {
   font-size: 1.75em;
 }
 
-.info-boxes li a:hover {
-  border-top: 2px solid #a28670;
-  border-bottom: 2px solid #a28670;
+.info-boxes li:hover {
   background-color: #795437;
+  border-top: 2px #a28670;
+  border-bottom: 2px #a28670;
 }
 
 ul li a {
