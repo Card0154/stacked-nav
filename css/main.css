@@ -15,23 +15,43 @@ header h1 {
   text-align: center;
   font-size: 3rem;
 }
+
+body {
+  margin: 0;
+}
+
+body ul {
+  font-family: sans-serif;
+  list-style-type: none;
+}
+
 .info-boxes {
   margin: 0;
-  padding: 1em;
+  padding: 0;
   text-align: center;
-  border: 3px solid #795638
+  border-top: 2px  solid #795638;
+  border-bottom: 2px  solid #795638;
 }
 
 .info-boxes li {
   display: block;
-  margin: -1em;
+  margin: 0;
   max-width: none;
-  min-width: none;
-  padding-bottom: 1em ;
+  padding: 0.5em;
   background-color: #9a816d;
-  border: 3px solid #745842;
-  border-radius: 10px;
+  border-top: 2px solid #745842;
+  border-bottom: 2px solid #745842;
   text-align: center;
-  color: white;
-  font-size: 1.5rem;
+  font-size: 1.75em;
+}
+
+.info-boxes li a:hover {
+  border-top: 2px solid #a28670;
+  border-bottom: 2px solid #a28670;
+  background-color: #795437;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
 }
